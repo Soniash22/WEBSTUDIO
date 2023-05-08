@@ -133,6 +133,7 @@ a {
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 
 
 }
@@ -168,6 +169,7 @@ color: #212121;
 }
 
 .work_title {
+
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -175,6 +177,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
+
 
 color: #212121;
 
@@ -184,10 +187,11 @@ color: #212121;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 90px;
+  margin-top: 50px;
 }
 .us {
   background: #f5f5f5;
+  margin-top: 85px;
 }
 .main {
   font-family: "Roboto";
@@ -197,6 +201,10 @@ color: #212121;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 85px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+
 }
 .grey {
   color: #757575;
@@ -222,6 +230,7 @@ color: #212121;
 }
 .members {
   list-style-type: none;
+
 }
 .footer1 {
   color: #ffffff;
@@ -239,6 +248,9 @@ color: #212121;
 }
 .end {
   background-color: #2f303a;
+  height: 252px;
+  margin: 0;
+
 }
 .addressa a{
   color:#FFFFFF99;
@@ -256,4 +268,70 @@ color: #212121;
 }
 header {
   margin: auto;
+}
+.members {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0 ;
+  margin-right: 215px;
+}
+.members h3 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+
+}
+.members p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.addressa a {
+  margin-top: 10px;
+  display: flex;
+  align-content: normal;
+  
+}
+.logoend {
+  display: flex;
+  padding-top: 55px;
+
+}
+.end {
+  padding-bottom: 60px;
+}
+.img1 {
+  width: 270px;
+height: 260px;
+
+}
+.frame {
+  background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+margin-left: 20px ;
+margin-bottom: 90px;
+
+
 }
