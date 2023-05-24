@@ -162,6 +162,7 @@ a {
 .blockabt {
   width: 270px;
 
+
 }
 .blockabt h3 {
   font-family: 'Roboto';
@@ -188,7 +189,7 @@ color: #212121;
 }
 
 .work_title {
-
+  margin: 0;
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -395,4 +396,11 @@ margin-bottom: 90px;
 }
 .frame:hover {
   transform: scale(1,1.05);
+}
+.blockimg {
+  object-fit: cover;
+}
+.blockimg>img {
+  width: 100%;
+  height: 100%;
 }
