@@ -1,4 +1,9 @@
- a {
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
     text-decoration: none;
     
 }
@@ -16,3 +21,27 @@ letter-spacing: 0.03em;
 .logo span {
     color: #2196F3;
 }
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    list-style-type: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+  }
+  .header-left {
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
+    align-items: center; }
