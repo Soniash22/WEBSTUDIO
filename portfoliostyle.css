@@ -5,6 +5,7 @@
 
 a {
     text-decoration: none;
+    color: black;
     
 }
 .logo {
@@ -32,6 +33,10 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    
+}
+.links a:hover {
+    color: #2196F3;
 }
 
 .header_block {
@@ -44,4 +49,6 @@ letter-spacing: 0.03em;
     display: flex;
     width: 520px;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    
+ }
