@@ -5,7 +5,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    
     
 }
 .logo {
@@ -25,6 +25,7 @@ letter-spacing: 0.03em;
 .links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 280px;
     list-style-type: none;
     font-family: "Roboto";
@@ -33,7 +34,12 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    margin-top: 20px;
+    color: #212121;
     
+}
+.links a {
+    color: #212121;
 }
 .links a:hover {
     color: #2196F3;
@@ -45,10 +51,57 @@ letter-spacing: 0.03em;
   
     align-items: center;
   }
-  .header-left {
+  .header_left {
     display: flex;
     width: 520px;
     justify-content: space-between;
     align-items: center;
+    color: #212121;
     
  }
+ .header_left {
+    display: flex;
+ }
+ .contacts a {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+ }
+ .contacts {
+    width: 330px;
+ }
+ .contacts a:hover {
+    color: #2196F3;
+ }
+
+ .tel> a {
+    color: #757575;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+
+ }
+ .tel> a:hover {
+    color: #2196F3;
+ }
+
+ 
+ .tel:hover,
+.tel:hover path {
+  color: #2196F3;
+  fill: #2196F3; }
+
+  .email:hover,
+.email:hover path {
+  color: #2196F3;
+  fill: #2196F3; }

@@ -497,6 +497,7 @@ letter-spacing: 0.03em;
 }
 .clientssvg>li {
   border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
 .clientssvg>li>a {
   padding-left: 30px;
@@ -554,4 +555,13 @@ color: #FFFFFF;
 }
 .lilinks2>li>a path {
   fill: #ffffff;
+}
+.contacts>a:hover {
+  color: #2196F3;
+}
+i {
+  margin-right: 5px;
+}
+.tel {
+  margin-right: 0;
 }
