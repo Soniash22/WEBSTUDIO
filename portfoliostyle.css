@@ -75,6 +75,8 @@ color: #757575;
  }
  .contacts {
     width: 330px;
+    display: flex;
+    justify-content: space-between;
  }
  .contacts a:hover {
     color: #2196F3;
@@ -88,6 +90,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+margin-right: 5px;
 
 
  }
@@ -105,3 +108,199 @@ letter-spacing: 0.02em;
 .email:hover path {
   color: #2196F3;
   fill: #2196F3; }
+
+  .email> a {
+    margin-right: 5px;
+  }
+  .btns {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-top: 94px;
+  }
+  .btns>li>button {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+background-color: #F5F4FA;
+border: 0;
+margin-right: 8px;
+border-radius: 4px;
+padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+
+
+  }
+  .btns>li>button:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.5s;
+    transform: scale3d(1.05,1.05,5);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+.libtn {
+    border: 0;
+}
+.our_projects {
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-left: 0;
+    
+}
+.our_projects>li {
+    box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+margin-bottom: 30px;
+}
+
+.our_projects>li:hover {
+    transform: scale3d(1.02,1.02,5);
+    transition: 0.5s;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+h3 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+margin-left: 20px;
+margin-bottom: 10px
+}
+p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+margin-left: 20px;
+margin-top: 0;
+
+}
+.end .container {
+  display: flex;
+  gap: 70px;
+}
+.end {
+  background-color: #2f303a;
+  padding: 60px 0; }
+
+  .footer1 {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 31px;
+    /* identical to box height */
+  
+    letter-spacing: 0.03em;
+  }
+  .footer1 span {
+    color: #2196f3;
+  }
+  .addressa a{
+    color:#FFFFFF99;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 24px;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+  }
+  .addressa a:hover {
+    color: #2196f3;
+  }
+  .addressa span {
+    color: #ffffff;
+  }
+  .addressa span:hover {
+    color: #2196f3;
+  }
+  .addressa a {
+    margin-top: 10px;
+    display: flex;
+    align-content: normal; }
+
+    .joinclass {
+      font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    }
+    .join {
+      margin-top: 15px ;
+        
+    }
+    .lilinks2 {
+  
+      list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+  }
+  .lilinks2>li>a:hover, 
+  .lilinks2>li>a:hover path {
+    background-color: #2196F3;
+    fill: #FFFFFF; 
+  }
+  .lilinks2>li>a {
+    
+    width: 44px;
+      height: 44px;
+      background-color: #ffffff24;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      
+  }
+  .lilinks2>li>a path {
+    fill: #ffffff;
+  }
+  .libtn>button:hover {
+    transform: scale3d(1.02,1.02,5);
+  }
+  i {
+    margin-right: 5px;
+  }
+  hr {
+    border: 0.5px solid #ECECEC;
+  }

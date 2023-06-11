@@ -288,8 +288,7 @@ color: #212121;
 }
 .end {
   background-color: #2f303a;
-  height: 252px;
-  margin: 0;
+  padding: 60px 0;
 
 }
 .addressa a{
@@ -355,14 +354,8 @@ color: #757575;
   align-content: normal;
   
 }
-.logoend {
-  display: flex;
-  padding-top: 55px;
 
-}
-.end {
-  padding-bottom: 60px;
-}
+
 .img1 {
   width: 270px;
 height: 260px;
@@ -459,16 +452,12 @@ padding-bottom: 30px;
 .last {
   margin-right: 0;
 }
-.first {
-  margin-left: 20px;
-}
+
 
 .lilinks>li>svg {
   margin-left: 15px;
 }
-.lilinks2>li {
-  margin-left: 10px;
-}
+
 .clientssvg {
   list-style-type: none;
   display: flex;
@@ -519,21 +508,18 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 
+
 }
 .join {
-  display: flex;
-    justify-content: center;
-    margin: -167px;
-    margin-right: 120px
+  margin-top: 15px ;
+    
 }
 .lilinks2 {
-  padding: 30px;
-
-    margin-top: 25px;
-    margin-left: -162px;
+  
     list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
 }
 .lilinks2>li>a:hover, 
 .lilinks2>li>a:hover path {
@@ -541,8 +527,7 @@ color: #FFFFFF;
   fill: #FFFFFF; 
 }
 .lilinks2>li>a {
-  display: flex;
-  justify-content: space-between;
+  
   width: 44px;
     height: 44px;
     background-color: #ffffff24;
@@ -564,4 +549,8 @@ i {
 }
 .tel {
   margin-right: 0;
+}
+.end .container {
+  display: flex;
+  gap: 70px;
 }
