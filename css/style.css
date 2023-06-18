@@ -1,0 +1,21 @@
+@import "./blocks/header.css";
+@import "./promo.css";
+@import "./about.css";
+@import "./work.css";
+@import "./us/smlinks.css";
+@import "./us/us.css";
+@import "./clients.css";
+@import "./end/end.css";
+@import "./end/join.css";
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+i {
+  margin-right: 5px;
+}

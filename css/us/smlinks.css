@@ -1,0 +1,57 @@
+
+.smlinks>a {
+    margin-right: 10px
+  }
+  .smlinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+  }
+  .lilinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .lilinks>li>a {
+    margin-right: 15px;
+    width: 44px;
+      height: 44px;
+      background-color: #FFFFFF;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+  }
+  .lilinks>li>a:hover, 
+  .lilinks>li>a:hover path {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+  }
+  .lilinks>li>svg {
+    margin-left: 15px;
+  }
+  .lilinks2>li>a:hover, 
+.lilinks2>li>a:hover path {
+  background-color: #2196F3;
+  fill: #FFFFFF; 
+}
+.lilinks2>li>a {
+  
+  width: 44px;
+    height: 44px;
+    background-color: #ffffff24;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.lilinks2>li>a path {
+  fill: #ffffff;
+}
+.last {
+    margin-right: 0;
+  }

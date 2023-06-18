@@ -158,9 +158,10 @@ padding-right: 15px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    margin-left: 215px;
-    margin-right: 215px;
-    padding-left: 0;
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    
     
 }
 .our_projects>li {
