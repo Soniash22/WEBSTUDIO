@@ -71,6 +71,7 @@
   top: 0;
   left: 0;
   display: none;
+  
 }
 .promo_modal {
   position: absolute;
@@ -87,6 +88,7 @@
 }
 .show {
   display: block;
+  z-index: 5;
 }
 .close_modal {
   fill: #fff;
