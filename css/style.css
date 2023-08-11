@@ -7,6 +7,7 @@
 @import "./clients.css";
 @import "./end/end.css";
 @import "./end/join.css";
+@import "./form.css";
 
 .container {
   width: 1140px;
