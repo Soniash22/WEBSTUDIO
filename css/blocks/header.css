@@ -70,6 +70,7 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    position: relative;
   
   
   }
@@ -97,4 +98,30 @@ header {
     top: 0;
     background: #FFF;
     z-index: 1;
+}
+.links-a::before {
+  content: "";
+  width: 48px;
+height: 4px;
+border-radius: 2px;
+background: #2196F3;
+position: absolute;
+bottom: -28px;
+opacity: 0;
+
+}
+.links-a:hover:before{
+  opacity: 1;
+}
+.links-a:before:nth-child(2) {
+width: 70px;
+}
+
+
+.links li:nth-child(2) .links-a::before {
+  width: 76px;
+}
+
+.links li:nth-child(3) .links-a::before {
+  width: 70px;
 }
