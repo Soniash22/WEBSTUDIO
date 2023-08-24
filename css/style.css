@@ -8,6 +8,9 @@
 @import "./end/end.css";
 @import "./end/join.css";
 @import "./form.css";
+html{
+  scroll-behavior: smooth;
+}
 
 .container {
   width: 1140px;

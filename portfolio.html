@@ -22,9 +22,9 @@
             </a>
             <nav>
               <ul class="links">
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="/">Контакти</a></li>
+                <li><a class="links-a" href="./index.html">Студія</a></li>
+                <li><a class="links-a" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="links-a" href="#footer">Контакти</a></li>
               </ul>
             </nav>
           </div>
@@ -159,7 +159,7 @@
       </section>
     </main>
 
-    <footer class="end">
+    <footer id="footer" class="end">
         <div class="container">
          <div class="footer_address">
            <a class="logoend" href="/"><h2 class="footer1"><span>Web</span>Studio</h2></a>
@@ -171,7 +171,8 @@
          </div>
        
        <div class="join">
-         <h4 class="joinclass">приєднуйтесь</h4>
+         <div class="join_links">
+          <h4 class="joinclass">приєднуйтесь</h4>
          <ul class="lilinks2">
            <li class="first"><a href="./instagram2.svg">
              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -230,6 +231,14 @@
            </a>
          </li>
          </ul>
+         </div>
+         <form class="form_end">
+          <label class="follow_a" for="email">Підпишіться на розсилку</label>
+          <div class="follow_btn">
+            <input class="follow_email" type="email" placeholder="Email" required>
+          <button class="follow">Підписатися</button>
+          </div>
+        </form>
        </div>
      </div>
     </footer>
